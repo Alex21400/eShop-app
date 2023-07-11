@@ -1,0 +1,27 @@
+.admin {
+    display: flex;
+  
+    .navbar {
+      width: 25%;
+      min-height: 80vh;
+    }
+    .content {
+      width: 75%;
+      padding: 1rem;
+    }
+  }
+
+.not-admin{
+    height: 90vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a{
+        color: var(--color-orange);
+        font-size: 25px;
+    }
+}  
+
+
+  
