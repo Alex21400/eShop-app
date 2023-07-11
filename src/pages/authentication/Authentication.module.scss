@@ -80,4 +80,12 @@
       display: none;
     }
   }
+
+  @media screen and (max-width: 500px) {
+    .auth {
+      .form {
+        width: 30rem;
+      }
+    }
+  }
   
